@@ -1,12 +1,56 @@
-# React + Vite
+# 🌐 GitHub Portfolio Viewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive GitHub portfolio viewer built with **React** and **Tailwind CSS**. This app fetches and displays your GitHub repositories using the GitHub API — showcasing your work in a stylish, grid-based layout.
 
-Currently, two official plugins are available:
+## 📸 Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screenshot](./screenshot.png) 
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- 📦 **Dynamic GitHub Repo Fetching** – Automatically pulls your latest repositories
+- 🎨 **Tailwind CSS Styling** – Fully responsive and dark-themed UI
+- ⚡ **Animated Hover Effects** – Smooth scale and shadow effects on cards
+- 🔗 **Live GitHub Links** – Clickable repo links for quick access
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, Vite
+- **Styling**: Tailwind CSS
+- **API**: GitHub REST API
+
+---
+
+## 📂 Folder Structure
+
+src/
+├── App.jsx
+├── main.jsx
+└── index.css
+
+
+---
+
+## 📦 Getting Started
+
+1. **Clone the repo**
+
+```bash
+git clone https://github.com/yourusername/github-portfolio-viewer.git
+cd github-portfolio-viewer
+
+---
+
+### ✅ Next Steps:
+- Rename the file to `README.md`
+- Place it in the root of your project folder
+- Commit and push it:
+
+```bash
+git add README.md
+git commit -m "Add professional README"
+git push
